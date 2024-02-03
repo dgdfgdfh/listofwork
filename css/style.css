@@ -1,0 +1,67 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    background-color: red;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+}
+
+.headinput {
+    display: flex;
+    margin-left: 10px;
+    font-size: medium;
+    width: 0px;
+    justify-content: space-between;
+
+}
+
+.task {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 200px;
+    border: 0px;
+    border-radius: 0%;
+}
+
+.myButton {
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 0%;
+
+}
+
+.bottom {
+    width: 350px;
+    height: 100px;
+}
+
+.list {
+    background-color: rgb(223, 223, 223);
+    list-style: none;
+    width: 400px;
+    text-align: center;
+
+}
+
+
+button {
+    border: 0px;
+    border-radius: 0%;
+    margin-left: 80%;
+    background-color: rgb(233, 233, 233);
+}
+
+gfhlist:nth-child(odd) {
+    background-color: black;
+}
